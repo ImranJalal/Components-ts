@@ -1,0 +1,50 @@
+.contribute-section {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 800px; /* Max width to make the section not too wide */
+  text-align: center; /* Center the text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle 3D effect */
+}
+
+.contribute-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.contribute-section p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.upload-button {
+  background-color: #007BFF; /* Button background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Optional: Add a responsive design if the page is viewed on smaller screens */
+@media (max-width: 768px) {
+  .contribute-section {
+    padding: 20px;
+    max-width: 90%; /* Adjust width on smaller screens */
+  }
+
+  .upload-button {
+    width: 100%;
+    padding: 12px;
+  }
+}
