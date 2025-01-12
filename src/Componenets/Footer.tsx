@@ -3,6 +3,6 @@ import './Footer.css'
 
 export const Footer = () => {
     return (
-        <footer><p> @Imran Jalal 2024 My Website</p></footer>
+        <footer><p> @Fake Name 2024 My Website</p></footer>
     )
 }
